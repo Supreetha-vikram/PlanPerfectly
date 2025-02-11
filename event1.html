@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - PlanPerfectly</title>
+  <link rel="stylesheet" href="event1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    /* Slideshow Styles */
+    .slideshow-container {
+      max-width: 800px; /* Adjust the maximum width of the slideshow container */
+      margin: auto;
+      text-align: center; /* Center the images horizontally */
+    }
+
+    .mySlides {
+      display: none;
+      margin: 0 auto; /* Center the images horizontally */
+      max-width: 600px; /* Adjust the maximum width of the images */
+    }
+
+    .mySlides img {
+      width: 100%; /* Ensure the images scale properly within the container */
+      height: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    /* FAQ Styles */
+    .faq {
+      margin-top: 50px;
+    }
+
+    .faq-question {
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .faq-answer {
+      display: none;
+      color: #666;
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+
+<h2 style="color: azure;text-align: center;font-family: sans-serif;font-size: 30px;">EVE<span style="color: rgb(219, 154, 24);">NTS</span></h2>
+<br>
+<br>
+<h3 style="color: azure; text-align: center;font-family: sans-serif;">BIRTHDAY EVENT </h3>
+
+<section class="event">
+  <div class="container">
+   
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="https://borntoparty.in/img/menus/night-birthday-decorations-on-terrace.jpg" alt="Event Management Image">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://www.7eventzz.com/public/media/original-images/1691585299_14.jpg?width=296&quality=85" alt="second image">
+      </div>
+      
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div style="text-align:justify">
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <p style="color: antiquewhite; text-align: justify;">Entertainment and Activities from live music and interactive games to photo booths and themed entertainment, we offer a wide range of entertainment options to keep guests entertained throughout the event. Whether you prefer a laid-back gathering or an energetic dance party, we tailor the entertainment to suit your style and preferences.
+
+    Catering and Cuisine Indulge in a culinary journey of delectable delights with our bespoke catering services. From gourmet hors d'oeuvres and signature cocktails to decadent desserts and custom cakes, we ensure that every bite is a delight for the senses.
+        
+    Memorable Moments At PlanPerfectly, we go above and beyond to create memorable moments that leave a lasting impression. From surprise elements to heartfelt speeches and toast, we orchestrate special touches that make the birthday celebration truly unforgettable.</p>
+    <section class="faq">
+        <div style="text-align: center" class="container">
+        <div style="color: rgb(10, 93, 93);" class="faq-item">
+            <div style="color: azure;"  class="faq-question" onclick="toggleAnswer(1)">Birthday Celebration: Creating Unforgettable Moments</div>
+            <div style="color: azure;"  class="faq-answer">At PlanPerfectly, we specialize in orchestrating seamless and unforgettable birthday celebrations. Whether it's a milestone birthday or a simple gathering with loved ones, we believe every birthday deserves to be celebrated in style.
+
+            </div>
+            <div style="color: azure;" class="faq-question" onclick="toggleAnswer(2)">Personalization: </div>
+            <div style="color: azure;"  class="faq-answer">We understand that every birthday is unique, which is why we personalize each event to reflect the individual's personality and preferences. From selecting the perfect theme to curating bespoke decorations, our team ensures that every detail resonates with the birthday honoree.</div>
+            <div style="color: azure;"  class="faq-question" onclick="toggleAnswer(3)">Venue Selection: </div>
+            <div style="color: azure;"  class="faq-answer">Whether you envision an intimate dinner party at a cozy restaurant or a lively bash at a glamorous venue, we help you choose the perfect setting for your celebration. Our extensive network of vendors allows us to find venues that match your vision and budget.</div>
+
+
+          </div>
+        </div>
+    </section>
+  </div>
+</section>
+
+<section class="about">
+    <div class="container">
+      <h2 style="text-align:center">MARRIAGE EVENTS</h2>
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://i.pinimg.com/736x/3a/60/5a/3a605a153f05ad0bd966b1a726293a18.jpg" alt="Event Management Image">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://wevaphotography.com/wp-content/uploads/2021/03/Dazzling-Decor-Ideas-For-Your-Dream-Wedding-Stage.jpg" alt="second image">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div style="text-align:justify">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+  
+      <p style="color: antiquewhite; text-align: justify;">At PlanPerfectly, we specialize in curating enchanting wedding events that exceed expectations and capture the essence of love and commitment. With a blend of creativity, meticulous planning, and personalized service, we transform your dream wedding into a breathtaking reality.
+
+        Our approach to wedding planning is centered around you, the couple. We take the time to understand your unique vision, style, and preferences, ensuring that every aspect of your special day reflects your love story.
+        
+        From selecting the perfect venue to curating exquisite decor, our team handles every detail with precision and care. We work closely with trusted vendors to bring your vision to life, creating a wedding environment that is both stunning and meaningful.</p>
+    </div>
+  </section>
+
+<section class="about">
+    <div class="container">
+      <h2 style="text-align:center">BABY SHOWER</h2>
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2023/2/HH/VV/YV/102025597/baby-shower-photography-ahmedabad-dabhi-photography-9.jpg" alt="Event Management Image">
+        </div>
+        <div class="mySlides fade">
+          <img src="https://hometriangle.com/imagecache/media/96115/bs6-min.jpg" alt="second image">
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <!-- The dots/circles -->
+      <div style="text-align:justify">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+  
+      <p style="color: antiquewhite; text-align: justify;">At PlanPerfectly, we specialize in creating heartwarming and joyous baby shower events that honor the expecting parents and celebrate the imminent arrival of their little bundle of joy. With a focus on creating intimate and memorable experiences, we craft baby showers that are filled with love, laughter, and anticipation.
+
+        Our approach to planning baby showers revolves around personalization and attention to detail. We understand that each expecting parent has their own unique preferences and desires, which is why we work closely with them to tailor every aspect of the event to their vision.
+        
+        From selecting the perfect theme to designing charming decor, we infuse each baby shower with elements that reflect the personality and style of the parents-to-be. Whether it's a whimsical woodland theme, a sophisticated gender-neutral palette, or a playful animal safari motif, we bring the chosen theme to life with creative flair and impeccable taste.</p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <section class="footer">
+
+    <div class="box-container">
+    
+        <div class="box">
+            <h5>contact info</h5>
+            <a href="#"><i class="fas fa-phone"></i> +91 9535389803</a>
+            
+            <a href="#"><i class="fas fa-envelope"></i> supreetha.vikram160703@gamil.com</a>
+           
+        </div>
+    
+        <div class="box">
+    
+            <h5>follow us</h5>
+            <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+            <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+    
+        </div>
+    
+    
+        <div class="credit">created by<span> XXX</span> all rights reserved</div>
+    </div>
+    
+    
+    </section>
+  
+  
+  
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+  
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+</script>
+<script>
+    // Function to toggle FAQ answer visibility
+    function toggleAnswer(index) {
+      var answer = document.getElementsByClassName("faq-answer")[index - 1];
+      if (answer.style.display === "block") {
+        answer.style.display = "none";
+      } else {
+        answer.style.display = "block";
+      }
+    }
+  </script>
+  
+</body>
+</html>
+

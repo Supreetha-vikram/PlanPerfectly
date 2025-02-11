@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(50, 42, 42);
+    padding: 1vw 1,4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+   
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5vw;
+}
+
+.nav a:hover{
+   color: rgb(122, 114, 114);
+}
+.sign .text {
+    height: 300px;
+    width: 800px;
+    position:absolute;
+    font-size: 50px;
+    font-weight:400;
+    color:wheat;
+    left: 250px;
+    top: 300px;
+    line-height: 4.4vw;
+    
+}
+.sign button {
+    padding: 1vw 2vw;
+    border-radius: 15px;
+    background-color: orangered;
+    color: white;
+    font-weight: 10px;
+}
+
+
+
+ h3 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .abtimg {
+    height: 420px;
+    width: 400px;
+    background-image: url(about.jpg);
+    background-size: cover;
+   position: relative;
+   left: 330px;
+   opacity: 0.7;
+
+}
+.abtcontent {
+    padding:1vw 1.5vw;
+    background-color: rgb(50, 42, 42);
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+   box-shadow: 19px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   position: relative;
+   bottom:400px;
+   left: 780px;
+   
+ } 
+
+ button {
+   
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+   padding: 1vw 1vw;
+ } 
+
+ .events {
+    display: inline;
+
+
+ }
+ 
+
+   
+   
+   
+

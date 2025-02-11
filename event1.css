@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.center-container{
+ 
+  text-align: center;
+
+
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+  font-size: 24px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #0a0909;
+  text-decoration: none;
+}
+
+.current a {
+  color: #120356;
+}
+
+.event {
+  padding: 50px 0;
+}
+
+.event h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #f3f1f1;
+}
+
+.event p {
+  font-size: 18px;
+  color: #d3caca;
+  margin-bottom: 20px;
+}
+
+.footer{
+  background: #111;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  gap: 0.5rem;
+  
+}
+
+.footer .box-container .box h5{
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  color: #fff;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  color: #eee;
+  text-decoration: none;
+}
+.footer .box-container .box a i{
+ padding-right: .5rem;
+ color: rgb(219, 154, 24);
+}
+
+.footer .box-container .credit {
+  text-align: center;
+  border-top: 1rem solid #222;
+  color: #fff;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  margin-top: 0rem;
+  font-size: 1rem;
+}

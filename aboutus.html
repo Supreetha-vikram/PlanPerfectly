@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - PlanPerfectly</title>
+  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    /* Slideshow Styles */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .slideshow-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* FAQ Styles */
+    .faq {
+      margin-top: 50px;
+    }
+
+    .faq-question {
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .faq-answer {
+      display: none;
+      color: #666;
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+
+
+<section class="about">
+  <div class="container">
+    <h2>About <span style="color: rgb(219, 154, 24);font-family: sans-serif;">Us</span></h2>
+    <p>PlanPerfectly MANAGEMENT PRIVATE LIMITED. is all about creating and delivering a memorable experience live, taking the discipline and process blended with passion.</p>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YbNZbyowo0uXBJ1q/events-hospitality-credit-to-taylor-lynn-corporation-1-mjEQ50oqMeSLDjPN.jpg" alt="Event Management Image">
+      </div>
+      <div class="mySlides fade">
+        <img src="https://eclipse.global/wp-content/uploads/2018/11/So-Sri-Lanka-CS-2.jpg" alt="second image">
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <p style="font-family: sans-serif;">PlanPerfectly is a premier event management company committed to delivering exceptional experiences for our clients. With a team of dedicated professionals and years of industry experience, we specialize in creating memorable events that exceed expectations.</p>
+    <p>Our mission is to transform your vision into reality by providing innovative solutions, personalized service, and attention to detail. Whether you're planning a corporate event, wedding, or social gathering, we have the expertise to make it extraordinary.</p>
+    <p>At PlanPerfectly, we believe in the power of creativity, collaboration, and excellence. Let us bring your ideas to life and make your next event an unforgettable experience for you and your guests.</p>
+  </div>
+</section>
+
+<div class="center-container">
+  <img src="https://www.cvent.com/sites/default/files/styles/focus_scale_and_crop_800x450/public/image/2019-10/iStock-855485092.png?h=08b866d1&itok=twyjtv4R" alt="Team Image" class="team-image">
+</div>
+
+<section class="faq">
+  <div style="text-align: center" class="container">
+    <h2 style="color: aliceblue;">Frequently Asked <span style="color: rgb(219, 154, 24);">Questions</span></h2>
+    <br>
+  
+    <div style="color: rgb(10, 93, 93);" class="faq-item">
+      <div class="faq-question" onclick="toggleAnswer(1)" style="color: rgb(166, 133, 67);">What types of events do you organize?</div>
+      <div class="faq-answer" style="color: white;">We organize various events including corporate events, weddings, social gatherings, and more.</div>
+    </div>
+    <br>
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleAnswer(2)" style="color: rgb(166, 133, 67);">How can I contact you to discuss my event?</div>
+      <div class="faq-answer" style="color: white;">You can contact us through our website's contact page or by phone. We'll be happy to discuss your event requirements.</div>
+    </div>
+    <br>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(3)" style="color: rgb(166, 133, 67);">I'm concerned about the logistics of organizing a team retreat</div>
+        <div class="faq-answer" style="color: white;">We understand that organizing a team retreat can be overwhelming, which is why we offer a comprehensive planning service to help you every step of the way. From choosing the perfect location to designing a custom program and handling all the details, our team of experts will work with you to create a seamless and stress-free experience. We’ll handle all the logistics so you can focus on what’s most important: your team.</div>
+      </div>
+      <br>
+
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(4)" style="color: rgb(166, 133, 67);">I'm not sure if a team retreat is right for my team</div>
+        <div class="faq-answer" style="color: white;">We believe that team retreats can be beneficial for any team, no matter the size or industry. Our retreats are designed to help teams connect, collaborate, and build stronger relationships, which can lead to improved communication, increased motivation, and more innovative ideas. We offer a variety of options to fit different needs and budgets, so we’re confident that we can help you find the perfect retreat for your team.</div>
+      </div>
+      <br>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(5)" style="color: rgb(166, 133, 67);">When should I pay my Team Retreat?</div>
+        <div class="faq-answer" style="color: white;">In order to ensure availability and pricing accuracy, we recommend to our clients to pay at least 30 days before the starting date of the Team Retreat.
+
+            Our payment terms are as below:
+            
+            50% = down payment at the signature of the contract (booking of the venues)
+            40% = 21 days before the starting date of the retreat (booking of the activities)
+            10% + any additional charges encountered (final balance) = within 2 weeks after the end of the retreat.</div>
+      </div>
+      <br>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(6)" style="color: rgb(166, 133, 67);">More questions?</div>
+        <div class="faq-answer" style="color: white;">If you have other inquiries feel free to write an email to our team of specialists that will guide you in designing the perfect Team Retreat for your company. Email us at planperfectly@gmail.com . We’re here to help.</div>
+      </div>
+      <br>
+    <!-- Add more FAQ items as needed -->
+  </div>
+</section>
+
+<section class="footer">
+
+  <div class="box-container">
+  
+      <div class="box">
+          <h5>contact info</h5>
+          <a href="#"><i class="fas fa-phone"></i> +91 9535389803</a>
+          
+          <a href="#"><i class="fas fa-envelope"></i> PlanPerfectly@gamil.com</a>
+         
+      </div>
+  
+      <div class="box">
+  
+          <h5>follow us</h5>
+          <a href="#"><i class="fa-brands fa-facebook"></i>facebook</a>
+          <a href="#"><i class="fa-brands fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i>instagram</a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+  
+      </div>
+  
+  
+      <div class="credit">created by<span> XXX</span> all rights reserved</div>
+  </div>
+  
+  
+  </section>
+  
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+  
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+  </script>
+  <script>
+  // Function to toggle FAQ answer visibility
+  function toggleAnswer(index) {
+    var answer = document.getElementsByClassName("faq-answer")[index - 1];
+    if (answer.style.display === "block") {
+      answer.style.display = "none";
+    } else {
+      answer.style.display = "block";
+    }
+  }
+</script>
+
+</body>
+</html>
